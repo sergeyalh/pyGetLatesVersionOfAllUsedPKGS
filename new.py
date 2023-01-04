@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import subprocess
 
 # parse the XML file
-tree = ET.parse('SHC - FLP CLOUD CF-inventory-report.xml')
+tree = ET.parse('example.xml')
 
 # get the root element
 root = tree.getroot()
